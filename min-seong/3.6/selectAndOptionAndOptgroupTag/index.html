@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectTagAndOptionTagAndOptgroupTag</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>개인 정보 입력</legend>
+            <p>
+                지역<br>
+                <select name="city" id="city">
+                    <optgroup label="서울시">
+                        <option value="강북구">강북구</option>
+                        <option value="강남구">강남구</option>
+                        <option value="서초구">서초구</option>
+                        <option value="중원구">중원구</option>
+                        <option value="분당구">분당구</option>
+                    </optgroup>
+                    <optgroup label="대전 광역시">
+                        <option value="중구">중구</option>
+                        <option value="서구">서구</option>
+                        <option value="동구">동구</option>
+                        <option value="유성구">유성구</option>
+                        <option value="대덕구">대덕구</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>개인 정보 입력, size tag</legend>
+            <p>
+                지역<br>
+                <select name="city" id="city" size="3">
+                    <option value="중구">중구</option>
+                    <option value="서구">서구</option>
+                    <option value="동구">동구</option>
+                    <option value="유성구">유성구</option>
+                    <option value="대덕구">대덕구</option>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>개인 정보 입력, multiple tag</legend>
+            <p>
+                지역<br>
+                <select name="city" id="city" multiple>
+                    <option value="중구">중구</option>
+                    <option value="서구">서구</option>
+                    <option value="동구">동구</option>
+                    <option value="유성구">유성구</option>
+                    <option value="대덕구">대덕구</option>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>개인 정보 입력, selected tag</legend>
+            <p>
+                지역<br>
+                <select name="city" id="city">
+                    <option value="중구" selected>중구</option>
+                    <option value="서구">서구</option>
+                    <option value="동구">동구</option>
+                    <option value="유성구">유성구</option>
+                    <option value="대덕구">대덕구</option>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
