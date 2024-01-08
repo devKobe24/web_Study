@@ -1,0 +1,6 @@
+a:link { /*한 번도 방문한 적이 없는 링크*/
+    color:orange;
+}
+a:visited { /* 한 번이라도 방문한 적이 있는 링크 */
+    color: green;
+}
