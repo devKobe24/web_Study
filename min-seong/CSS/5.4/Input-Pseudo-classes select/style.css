@@ -1,0 +1,17 @@
+input:focus{
+    color:red;
+}
+
+input:checked + label{
+    color:red;
+}
+
+input:disabled,
+button:disabled{
+    background-color:#ccc;
+}
+
+input:enabled,
+button:enabled{
+    background-color:#ccc;
+}
