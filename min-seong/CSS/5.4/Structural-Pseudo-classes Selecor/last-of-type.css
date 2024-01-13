@@ -1,0 +1,4 @@
+/* :last-of-type 선택자는 부모의 자식 중에서 마지막에 나오는 E 요소를 선택합니다. */
+p:last-of-type{
+    color:blue;
+}

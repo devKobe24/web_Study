@@ -1,0 +1,9 @@
+/* 다음 코드는 li 태그의 자식 요소 중에서 첫 번째와 마지막 요소를 선택해 텍스트를 빨간색으로 적용하는 코드입니다. */
+
+li:first-child{
+    color:red;
+}
+
+li:last-child{
+    color:red;
+}
