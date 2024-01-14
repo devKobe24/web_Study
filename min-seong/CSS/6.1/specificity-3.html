@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>적용 우선 순위와 개별성 3</title>
+    <!-- 이 코드는 서로 다른 선택자 방식으로 h1 태그에 color 속성을 적용하고 있습니다.-->
+    <!-- 하지만 결국 h1 태그에 적용된 색상은 파란색입니다. -->
+    <!-- 파란색이 적용된 이유는 개별성 규칙에 따라 클래스 선택자는 0010(10점) -->
+    <!-- 태그 선택자는 0001(1점)이 되어 점수가 높은 클래스 선택자가 적용됐기 때문입니다. -->
+    <link rel="stylesheet" href="../6.1/specificity-3.css">
+</head>
+<body>
+    <h1 class="title">h1 tag</h1>
+</body>
+</html>
