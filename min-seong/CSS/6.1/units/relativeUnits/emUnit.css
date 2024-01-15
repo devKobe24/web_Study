@@ -1,0 +1,9 @@
+.parent{
+    font-size:16px;
+}
+.child{
+    font-size:2em; /* 16px(부모 font-size 크기) * 2em = 32px */
+}
+.child-to-child{
+    font-size:2em; /* 32px(부모 font-size 크기) * 2em = 64px */
+}
