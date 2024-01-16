@@ -1,0 +1,9 @@
+.italic {
+    font-style: italic;
+}
+
+/* italic과 oblique는 실제로 사용해 보면 크게 차이가 나지 않는다. */
+
+.oblique {
+    font-style: oblique;
+}
