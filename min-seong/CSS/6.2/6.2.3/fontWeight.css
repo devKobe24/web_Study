@@ -1,0 +1,17 @@
+/* font-weigth: 숫자표기법 */
+/* font-weigth: 100 */
+
+/* font-weight: 키워드표기법 */
+/* font-weight: normal; */
+
+p{
+    font-weight: bold;
+}
+
+div {
+    font-weight: 600;
+}
+
+span {
+    font-weight: lighter;
+}
